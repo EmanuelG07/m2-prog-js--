@@ -8,7 +8,7 @@ class App
         for (let i = 0; i < 200; i++) {
             let x = Math.floor(Math.random() * 1000)
             let y = Math.floor(Math.random() * 1000)
-            let size = Math.floor(Math.random() * 30)
+            let size = Math.floor(Math.random() * 135)
             let r = Math.floor(Math.random() * 255)
             let g = Math.floor(Math.random() * 255)
             let b = Math.floor(Math.random() * 255)

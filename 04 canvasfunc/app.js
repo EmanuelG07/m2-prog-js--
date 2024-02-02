@@ -6,7 +6,9 @@ class App {
         this.tekenHuis(g, 10, 10)
         this.tekenHuis(g, 75, 50)
         this.tekenHuis(g, 120, 120)
+        this.tekenHuis(g, 160, 150)
         this.tekenKerstboom(g, 300, 300)
+        this.tekenKerstboom(g, 350, 300)
     }
  
     tekenHuis(g, x, y) {

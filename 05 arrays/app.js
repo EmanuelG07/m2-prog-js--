@@ -69,6 +69,9 @@ let data = ["Game review", "Upcoming releases", "Industry news", "Top 10 RPGs", 
 let headers1 = document.querySelectorAll("h1");
  
 for (let i = 0; i < data.length; i++) {
+  if(headers[i] == undefined){
+    continue
+  }
  headers[i].innerText = i + 1 + ": " + data[i];
 }
  
@@ -90,7 +93,7 @@ for (let i = 0; i < headersByCssClass.length; i++) {
 headersByCssClass[0].innerText = "nieuws";
 headersByCssClass[1].innerText = "reviews";
 headersByCssClass[2].innerText = "commentaar";
-headersByCssClass[3].innerText = "top 10";
+headersByCssClass[3].innerText = "top 12";
 headersByCssClass[4].innerText = "nieuwe games";
  
  
